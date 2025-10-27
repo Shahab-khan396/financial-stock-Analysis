@@ -20,31 +20,42 @@ Python: Core language with dependencies managed via Conda.
 Getting Started
 
 Clone the Repository:
-bashgit clone <https://github.com/your-username/financial-stock-Analysis.git>
+```
+bash
+git clone <https://github.com/your-username/financial-stock-Analysis.git>
 cd financial-stock-Analysis
-
+```
 Set Up Environment:
 
 Create a Conda environment:
-bashconda create -n myenv python=3.9
+```
+bash
+conda create -n myenv python=3.9
 conda activate myenv
-
+```
 Install dependencies:
-bashpip install -r requirements.txt
-
+```
+bash
+pip install -r requirements.txt
+```
 Configure API Key:
 
 Obtain an API key from OpenRouter.
 Create a .env file in the project root with:
-textOPENROUTER_API_KEY=your_api_key_here
+```
+text
 
+OPENROUTER_API_KEY=your_api_key_here
+```
 Prepare Data:
 
 Place financial news articles (e.g., .txt, .pdf) in the articles/ directory.
 
 Run the Application:
-bashstreamlit run app.py
-
+```
+bash
+streamlit run app.py
+```
 Access the app in your browser (default: <http://localhost:8501>).
 
 Project Structure
