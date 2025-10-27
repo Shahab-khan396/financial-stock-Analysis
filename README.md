@@ -21,7 +21,7 @@ Getting Started
 
 Clone the Repository:
 ```
-bash
+
 git clone <https://github.com/your-username/financial-stock-Analysis.git>
 cd financial-stock-Analysis
 ```
@@ -29,13 +29,13 @@ Set Up Environment:
 
 Create a Conda environment:
 ```
-bash
+
 conda create -n myenv python=3.9
 conda activate myenv
 ```
 Install dependencies:
 ```
-bash
+
 pip install -r requirements.txt
 ```
 Configure API Key:
@@ -43,7 +43,7 @@ Configure API Key:
 Obtain an API key from OpenRouter.
 Create a .env file in the project root with:
 ```
-text
+
 
 OPENROUTER_API_KEY=your_api_key_here
 ```
@@ -53,7 +53,7 @@ Place financial news articles (e.g., .txt, .pdf) in the articles/ directory.
 
 Run the Application:
 ```
-bash
+
 streamlit run app.py
 ```
 Access the app in your browser (default: <http://localhost:8501>).
